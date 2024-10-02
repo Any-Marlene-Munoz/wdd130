@@ -6,11 +6,12 @@
 
 body {
     font-size: 15px;
-    font-family: roboto, Arial, sans-serif;
+    font-family: Georgia;
 }
 
 h1 {
     --heading-text-color: #333;
+    font-family: 'Arial Black';
 }
 
 img {
