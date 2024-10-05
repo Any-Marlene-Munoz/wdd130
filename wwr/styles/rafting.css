@@ -42,9 +42,12 @@ p {
 }
 
 .heroimg {
-    display: block;
     width: 90%;
 
+}
+
+happyimg {
+    width: 90%;
 }
 
 .hero h1 {
