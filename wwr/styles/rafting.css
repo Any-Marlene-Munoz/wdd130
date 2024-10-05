@@ -19,7 +19,7 @@
 body {
     padding: 20px;
     margin: 0 auto;
-    max-width: 800 px;
+    max-width: 800px;
 }
 
 a {
@@ -46,10 +46,6 @@ p {
 
 }
 
-happyimg {
-    width: 90%;
-}
-
 .hero h1 {
     position: absolute;
     color: black;
@@ -64,8 +60,8 @@ article {
     position: absolute;
     background-color: var(--color-primary1);
     left: 15%;
-    top: 50%;
-    padding: 20px;
+    top: 40%;
+    padding: 15px;
     width: 60%;
 }
 
