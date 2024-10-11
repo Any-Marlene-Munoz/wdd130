@@ -78,13 +78,7 @@ margin : 1rem;
 padding : 1rem;
 background-color: #ddd;
 color : #000;
-}
-
-.box img {
-    display: grid;
-    margin-top: 30px;
-    justify-content: right 30px;
-
+margin-top: 30px;
 }
 
 header, .grid, footer {
