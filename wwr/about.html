@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Whitewater Rafting" content="Any Marlene Munoz Flores">
     <meta name="author" content="Any Marlene Munoz Flores">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,22 +12,24 @@
     <link rel="stylesheet" href="styles/rafting.css">
     <title>Whitewater Rafting | WDD 130</title>
 </head>
-
 <body>
     <header>
-        <img src="images/raftinglogo.png" alt="Rafting Logo" width="200">
+        <div class="topsection">
+        <img src="images/raftinglogo.png" alt="Rafting Logo" width="400">
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
             <a href="trips.html">Trips</a>
             <a href="contact.html">Contact Us</a>
         </nav>
+    </div>
     </header>
     <main>
         <div class="hero">  
-            <img src="images/happyclient.jpg" alt="happy client" class="heroimg">
-            <h1>Whitewater Rafting</h1> 
+            <img src="images/heroimg.jpeg" alt="Rafting" class="heroimg">
+            <h1>Whitewater Rafting Adventure</h1> 
             <article>
+                <img src="images/happyclient.jpg" alt="happy client" class="happyclientimg">
                 <p>
                     We aim to create a website where people of different ages can find 
                     the right place to have fun while interacting withthe natural world.
@@ -37,7 +39,7 @@
                 </p>
             </article>
         </div>
-        <section>
+        <section class="historysection">
             <h2>History</h2>
             <p>
                 Our company began 20 years ago with the idea of building a space where people can have fun and
@@ -45,14 +47,36 @@
                 experience while taking care of the nature of this beautiful place. White water Rafting has achieved
                 throughout these 20 years that the flora and fauna can live together in harmony with man.
             </p>
+            <img src="images/historyrafting.jpeg" alt="history rafting">
+            <p> 
+                Our company began 20 years ago with the idea of building a space where people can have fun and
+                reflect on our natural world. Our founder found the perfect formula to give people their best
+                experience while taking care of the nature of this beautiful place. White water Rafting has achieved
+                throughout these 20 years that the flora and fauna can live together in harmony with man.
+            </p>
         </section>
-        <section>
+        <section class="adventuresection">
             <h2>Adventure Awaits You!</h2>
-            <img src="images/whitewaterfive.jpg" alt="Rafting Fun">
-            <h3><img src="images/whitewaterfour.jpg" alt="Rafting Fun"></h3>
-            <h4><img src="images/whitewaterthree.jpg" alt="Rafting Fun"></h4>
-            <h5><img src="images/whitewatertwo.jpg" alt="Rafting Fun"></h5>
-            <h6><img src="images/whitewaterone.jpg" alt="Rafting Fun"></h6>
+            <figure>
+              <img src="images/whitewaterfive.jpg" alt="Rafting Fun">
+              <figcaption> Beginners Adventure</figcaption>
+            </figure>
+            <figure>
+              <img src="images/whitewaterfour.jpg" alt="Rafting Fun">
+              <figcaption> River Adventure</figcaption>
+            </figure>
+            <figure>
+              <img src="images/whitewaterthree.jpg" alt="Rafting Fun">
+              <figcaption> Rafting Adventure</figcaption>
+            </figure>
+            <figure>
+              <img src="images/whitewatertwo.jpg" alt="Rafting Fun">
+              <figcaption>Swiming Adventure</figcaption>
+            </figure>
+            <figure>
+              <img src="images/whitewaterone.jpg" alt="Rafting Fun">
+              <figcaption>Camping Adventure</figcaption>
+            </figure>
         </section>
     </main>
     <footer>
