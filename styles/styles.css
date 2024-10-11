@@ -65,14 +65,17 @@ aside img {
 width : 260px;
 height : auto;
 }
+
 aside h2 {
 position : absolute;
 left : 110px;
 }
+
 footer {
 margin-top : 15px;
 text-align : var(--text-align);
 }
+
 .box {
 margin : 1rem;
 padding : 1rem;
@@ -85,14 +88,17 @@ header, .grid, footer {
 max-width : 840px;
 margin : 0 auto;
 }
+
 .grid {
 display : grid;
 align-items : center;
 }
+
 main {
 grid-column : 2 / 3;
 margin : 1rem;
 }
+
 aside {
 position : relative;
 grid-column : 1 / 2;
