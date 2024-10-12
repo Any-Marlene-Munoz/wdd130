@@ -181,6 +181,12 @@ article {
     justify-content: center;
 }
 
+article h3 {
+    font-family: roboto;
+    font-size: 5px;
+    color: skyblue;
+}
+
 article p {
     font-size: 1em;
     color: black;
