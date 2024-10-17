@@ -1,9 +1,18 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+.roboto-thin {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
 * {
-    marging: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;    
 }
@@ -32,7 +41,7 @@ form {
     width: 400px;
     margin: 0 auto;
     padding: 1rem;
-    border: 1px solid rgba(0 0 0 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
     background-color: #eee;
     display: grid;
@@ -42,7 +51,7 @@ fieldset {
     display: grid;
     grid-gap: 0.5rem;
     margin: 1rem;
-    border: 1px solid rgba(0 0 0 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
 }
 
