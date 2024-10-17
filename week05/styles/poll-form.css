@@ -85,7 +85,7 @@ input [type="checkbox"] {
     vertical-align: bottom;
 }
 
-bottom {
+button {
     margin: 1rem;
     background-color: navy;
     color: #fff;
@@ -95,7 +95,7 @@ bottom {
     font-size: 1.2rem;    
 }
 
-bottom:hover {
+button:hover {
     background-color: darkgreen;
 }
 
