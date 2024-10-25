@@ -17,13 +17,80 @@
     --color-accent2: #6CDE4A;
     --color-accent3: #E462B9;
 }
-  
+
 
 body {
     padding: 20px;
     margin: 0 auto;
     max-width: 1000px;
 }
+
+nav {
+  background-color : skyblue;
+  padding : 10px;
+  display : flex;
+  justify-content: space-around;
+  align-items : center;
+  }
+  nav a {
+  color : white;
+  display : block;
+  font-weight : 600;
+  font-size : 1.0rem;
+  }
+  h1 {
+  color : black;
+  border-bottom : 1px solid;
+  }
+  main img {
+  width : 150px;
+  height : auto;
+  border : skyblue;
+  padding : 4px;
+  float : right;
+  margin : 0 0 1rem 1rem;
+  }
+  p {
+  padding : 1rem;
+  }
+  main aside {
+  position : relative;
+  width : 20em;
+  margin : 1em;
+  padding : 1em;
+  background-color : #eee;
+  color : #000;
+  }
+  aside img {
+  width : 260px;
+  height : auto;
+  }
+  aside h2 {
+  position : absolute;
+  left : 110px;
+  }
+  .box {
+  margin : 1rem;
+  padding : 1rem;
+  background-color : #ddd;
+  color : #000;
+  }
+
+  .grid {
+  display : grid;
+  align-items : center;
+  }
+  main {
+  grid-column : 2 / 3;
+  margin : 1rem;
+  }
+  aside {
+  position : relative;
+  grid-column : 1 / 2;
+  grid-row : 1 / 2;
+  width : 20rem;
+  }
+  
 
 a {
     color: black;
@@ -41,53 +108,37 @@ p {
 }
 
 .topsection {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    justify-content: left;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+align-items: center;
+justify-content: space-around;
 }
 
 .topsection nav {
 display: flex;
 gap: 10px;
-align-items: flex-end;
+align-items: center;
 justify-content: right;
 }
 
 .topsection nav a {
-    background-color: skyblue;
-    padding: 10px;
-    font-family: roboto;
-    color: black;
-    border-radius: 10px;
-}
-
-.topsection nav a:hover {
-    background-color: skyblue;
-}
-
-.topsection h1 {
-    color: black;
-    font-family: roboto;
-    font-size: 2em;
-    grid-column: 2 / 3;
-    text-align: left;
-    padding-left: 20px;
+background-color: skyblue;
+padding: 10px;
+font-family: roboto;
+color: black;
+border-radius: 10px;
 }
 
 .topsection img {
-    width: 200px;
-    height: auto;
-    grid-column: 1 / 2;
+width: 200px;
+height: auto;
+grid-column: 1 / 2;
 }
 
 .adventuresection {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 10px;
-    justify-content: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    justify-content: space-around;
     background:skyblue;
     border-radius: 10px;
 }
@@ -106,7 +157,7 @@ padding: 0;
 
 .adventuresection img {
 width: auto;
-max-height: 120px;
+max-height: 110px;
 border-radius: 10px;
 }
 
@@ -118,23 +169,26 @@ color: black;
 }
 
 .hero {
+display: flex;
 position: relative;
-margin: 20px;
+margin-top: 10px;
+width: 100%;
 }
 
 .heroimg {
-width: 100%;
+width: 115%;
 border-radius: 10px;
 }
 
 .happyclientimg {
 width: 20%;
 border-radius: 10px;
+margin-top: 30px;
+position: relative;
 }
 
 .hero h1 {
 position: absolute;
-color: black;
 width: 100%;
 text-align: center;
 top: 5%;
@@ -142,6 +196,7 @@ font-family: roboto;
 background-color: skyblue;
 margin-top: 0%;
 }
+
 
 .historysection {
 display: grid;
@@ -170,6 +225,7 @@ margin: 10px;
 .historysection p {
 margin: 0;
 padding: 10px;
+
 }
 
 article {
@@ -345,6 +401,7 @@ background:skyblue;
 border-radius: 10px;
 margin-top: 150px;
 position: relative;
+padding: 20px;
 }
 
 .tripdescription h4 {
@@ -362,12 +419,12 @@ padding: 0;
 }
 
 .tripdescription img {
-width: 290px;
-max-height: 290px;
+width: 270px;
+max-height: 270px;
 border-radius: 10px;
 padding-left: 28px;
 margin-top: 10px;
-justify-items: center;
+justify-content: center;
 }
 
 .tripdescription figcaption {
@@ -438,6 +495,7 @@ padding-left: 10px;
 padding-right: 10px;
 width: 20px;
 justify-content: center;
+margin-bottom: 5px;
 }
 
 footer {
@@ -446,10 +504,11 @@ display : grid;
 grid-template-columns : 3fr 1fr;
 padding : 10px;
 width : 100%;
-height: 80px;
+height: 60px;
 align-items : center;
 background-color: skyblue;
 border-radius: 10px;
+justify-content: space-around;
 }
 
 footer p {
