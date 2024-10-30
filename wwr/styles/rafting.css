@@ -72,7 +72,7 @@ padding : 1em;
 background-color : #eee;
 color : #000;
   }
-  
+
   aside img {
   width : 260px;
   height : auto;
@@ -193,7 +193,7 @@ width: 100%;
 }
 
 .heroimg {
-width: 115%;
+width: 300%;
 border-radius: 10px;
 }
 
@@ -330,7 +330,7 @@ form {
 width: 400px;
 margin: 0 auto;
 padding: 1rem;
-border: 1px solid rgba(0, 0, 0, 0.1);
+border: 1px solid rgba(0, 0, 0, 0.158);
 border-radius: 0.5rem;
 background-color: #eee;
 display: grid;
@@ -472,47 +472,52 @@ border-radius: 10px;
     color-scheme: black;
   }
   
-  thead,
-  tfoot {
-    background-color: white;
+  thead, tfoot {
+  background-color: white;
   }
   
-  th,
-  td {
-    border: 1px solid white;
-    padding: 8px 10px;
+  th, td {
+  border: 1px solid skyblue;
+  padding: 8px 10px;
   }
   
   td:last-of-type {
-    text-align: center;
+  text-align: center;
   }
 
   tbody > tr:nth-of-type(even) {
-    background-color: white;
+  background-color: white;
   } 
 
 button {
-    margin: 1rem;
-    background-color: navy;
-    color: #fff;
-    border: none;
-    border-radius: .5rem;
-    padding: .75rem;
-    font-size: 1.2rem;    
+margin: 1rem;
+background-color: navy;
+color: #fff;
+border: none;
+border-radius: .5rem;
+padding: .75rem;
+font-size: 1.2rem;    
 }
 
 button:hover {
-    background-color: darkgreen;
+background-color: darkgreen;
 }
 
 .sociallinks {
 display: flex;
-gap: 5px;
+gap: 3px;
 padding-left: 10px;
 padding-right: 10px;
 width: 20px;
 justify-content: center;
 margin-bottom: 10px;
+}
+
+.sociallinks img {
+  width: auto;
+  max-height: 32px;
+  border-radius: 10px;
+  margin-bottom: 30px;
 }
 
 footer {
@@ -531,9 +536,11 @@ justify-content: space-around;
 footer p {
 flex-grow : 1;
 text-align : center;
+margin-bottom: 30px;
 }
 
 footer a {
  margin-left : 20px;
+
 }
     
